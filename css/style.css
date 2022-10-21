@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Poppins:wght@500&display=swap');
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: helvetica;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    transition: 0.5s;
+    color: red;
+
+}
+
+#planos{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#planos:hover{
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+
+}
+
+
+h1{
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 52px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica;
+    width: 70%;
+
+    }
+
+    form [type="submit"]{
+        height: 50px;
+        width: 50%;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+    }
+
+    form [type="submit"]:hover{
+         
+        cursor: pointer;
+    }
+
+    form [type="submit"]:hover{
+         
+            transform: scale(1.1);
+            transition: all 0.5s;
+          
+    }
+
+    input{
+        margin-top: 20px;
+        height: 20px;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        font-size: 15px;
+    }
+
+    span{
+        color: red;
+    }
+
+    p{
+        line-height: 20px;
+        max-width: 500px;
+        font-family: helvetica;
+    }
+
+    
+
+    footer{
+        margin-top: 100px;
+    }
+
+    .imgm{
+        margin-left: 220px;
+    }
